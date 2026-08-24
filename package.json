@@ -1,0 +1,13 @@
+{
+  "name": "taskflow-workspace",
+  "version": "1.0.0",
+  "description": "TaskFlow - Gerenciador de Tarefas Inteligente (React + Express + SQLite)",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "test:backend": "node server/test_api_flow.js"
+  }
+}
